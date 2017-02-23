@@ -1,0 +1,147 @@
+/*Всі блоки стилізую по черзі*/
+
+/*Підключаю сторонні шрифти*/
+	@font-face {
+		src: url(../fonts/OpenSans-Regular.ttf);
+		font-family: "OpenSans";
+	}
+
+	@font-face {
+		src: url(../fonts/TitilliumWeb-Regular.ttf);
+		font-family: "Titillium";
+	}
+
+
+/*Бекграунд*/
+	html {
+		height: 100%;
+		background-image: -webkit-linear-gradient(right, #87CEFA 50%, #FFFBF0);
+		background-image: -o-linear-gradient(right, #87CEFA 50%, #FFFBF0);
+		background-image: linear-gradient(to left, #87CEFA 50%, #FFFBF0);
+	}
+
+
+/*Основний блок чорного кольору по цетрі сторінки */
+	.main {
+		width: 750px;
+		height: 1000px;
+		margin: 6% auto 6% auto;
+		background-image: -webkit-linear-gradient(right, #111111 5%, #282727);
+		background-image: -o-linear-gradient(right, #111111 5%, #282727);
+		background-image: linear-gradient(to left, #111111 5%, #282727);
+		border-radius: 1.5%;
+		position: relative;
+	}
+
+
+/*Стилі для фото*/
+	.photo{
+		position: absolute;
+		right: 263px;
+		top: 50px;
+	}
+
+	.photo img{
+		width: 225px;
+		height: 225px;
+		border: 5px solid #87CEFA;
+		border-radius: 50%;
+	}
+
+
+/*Стилі імені під фото*/
+	.name{
+		width: 250px;
+		height: 50px;
+		position: absolute;
+		right: 240px;
+		top: 310px;
+	}
+
+	.name p{
+		color: #FFFBF0;
+		font-family: Titillium,sans-serif;
+		font-size: 42px;
+	}
+
+/*Стилі основного тексту*/
+	.about_myself{
+		width: 500px;
+		height: 200px;
+		position: absolute;
+		left: 125px;
+		top: 450px;
+	}
+
+	.about_myself p{
+		font-family: OpenSans, sans-serif;
+		color: #E6E6FA;
+		font-size: 25px;
+		text-align: justify;
+	}
+
+
+/*Стилі лінкс-бару*/
+	.follow{
+		width: 310px;
+	 	height: 36px;
+	 	position: absolute;
+	 	bottom: 20px;
+	 	left: 245px;
+	}
+
+	.follow a{
+		display:inline-block;
+		width: 32px;
+		height: 32px;
+		margin: 0 40px 0 0;
+	}
+
+	.follow .vk{
+		background: url(../images/vk.png) 0 center no-repeat;
+		padding: padding:4px 0px 0px 0px;
+	}
+
+	.follow .vk:hover{
+		background: url(../images/vk2.png) 0 center no-repeat;
+		transition: all 0.2s 0.01s ease-in;
+		-o-transition: all 0.2s 0.01s ease-in;
+	 	-webkit-transition: all 0.2s 0.01s ease-in;
+	 	-moz-transition: all 0.2s 0.01s ease-in;
+	}
+
+	.follow .fb{
+		background: url(../images/fb.png) 0 center no-repeat;
+	}
+
+	.follow .fb:hover{
+		background: url(../images/fb2.png) 0 center no-repeat;
+		transition: all 0.2s 0.01s ease-in;
+		-o-transition: all 0.2s 0.01s ease-in;
+	 	-webkit-transition: all 0.2s 0.01s ease-in;
+	 	-moz-transition: all 0.2s 0.01s ease-in;
+	}
+
+	.follow .insta{
+		background: url(../images/insta.png) 0 center no-repeat;
+	}
+
+	.follow .insta:hover{
+		background: url(../images/insta2.png) 0 center no-repeat;
+		transition: all 0.2s 0.01s ease-in;
+		-o-transition: all 0.2s 0.01s ease-in;
+	 	-webkit-transition: all 0.2s 0.01s ease-in;
+	 	-moz-transition: all 0.2s 0.01s ease-in;
+	}
+
+	.follow .in{
+		background: url(../images/in.png) 0 center no-repeat;
+	}
+
+	.follow .in:hover{
+		background: url(../images/in2.png) 0 center no-repeat;
+		transition: all 0.2s 0.01s ease-in;
+		-o-transition: all 0.2s 0.01s ease-in;
+	 	-webkit-transition: all 0.2s 0.01s ease-in;
+	 	-moz-transition: all 0.2s 0.01s ease-in;
+	}
